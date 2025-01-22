@@ -147,6 +147,13 @@ header a:hover{
 
 footer{
     background-color: black;
+    height: 70px;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .facebook a{
@@ -187,18 +194,15 @@ footer .wrapper nav ul li a{
     height: 32px;
 }
 
-footer li{
-    list-style: none;
-}
-
 footer ul{
     display: flex;
+    list-style: none;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
 }
 
 footer h4{
-    align-items: center;
     color: #FFFFFF;
+    font-weight: 400;
 }
