@@ -1,0 +1,204 @@
+/*----------------------------------------------------
+Base
+----------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing:inherit;
+}
+
+/*----------------------------------------------------
+Generic
+----------------------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", serif;
+    background-color: white;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------
+Components
+----------------------------------------------------*/
+
+/*HEADER*/
+
+header{
+    background-color: #f26c25;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+}
+
+header a{
+    color: #ffffff;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*SECTION BANNIERE*/
+
+.banniere{
+    background-color: #EEEEEE;
+}
+
+.banniere .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.banniere h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*SECTION TRANSPORT*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+    background-color: #EEEEEE;
+
+    border: 1px solid #D0D0D0;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.titre-section h2{
+    font-size: 18px;
+
+    font-weight: 700;
+
+    margin-left: 20px;
+}
+
+.titre-section img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.conteneur-transport h3{
+    font-size: 36px;
+    font-weight: 300;
+
+    text-align: center;
+}
+
+.conteneur-transport p{
+    text-align: center;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+}
+
+.facebook a{
+    background-image: url("../images/facebook-non-survol.jpg");
+}
+
+.twitter a{
+    background-image: url("../images/twitter-non-survol.jpg");
+}
+
+.linkedin a{
+    background-image: url("../images/linkedin-non-survol.jpg");
+}
+
+.pinterest a{
+    background-image: url("../images/pinterest-non-survol.jpg");
+}
+
+.facebook a:hover{
+    background-image: url("../images/facebook-survol.jpg");
+}
+
+.twitter a:hover{
+    background-image: url("../images/twitter-survol.jpg");
+}
+
+.linkedin a:hover{
+    background-image: url("../images/linkedin-survol.jpg");
+}
+
+.pinterest a:hover{
+    background-image: url("../images/pinterest-survol.jpg");
+}
+
+footer .wrapper nav ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+footer h4{
+    align-items: center;
+    color: #FFFFFF;
+}
