@@ -148,6 +148,10 @@ header .navi:hover{
     padding-bottom: 80px;
 }
 
+.conteneur-transport-invisible{
+    display: none;
+}
+
 /*Footer*/
 
 footer{
